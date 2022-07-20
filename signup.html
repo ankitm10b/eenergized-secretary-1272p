@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+         <style>
+             body{
+                background-image: linear-gradient(to right, rgb(86, 120, 255), rgb(186, 55, 252));
+             }
+             #container{
+                background-color: white;
+                width: 30%;
+            
+                margin: auto;
+                border-radius: 15px;
+              
+             }
+             h1{
+                 text-align: center;
+                 padding-top: 100px;
+                 font-size: 40px;
+                 font-family: sans-serif;
+             }
+            #form{
+                width: 75%;
+                margin: auto;
+                border: hidden;
+               
+               
+            }
+           
+            
+            #form>input{
+                font-size: 23px;
+                border: hidden;
+                 margin-top: 50px;
+                padding-bottom: 15px;
+             
+            }
+            input:focus {
+           outline: none; 	
+    }
+          
+            
+            hr{
+                height: 2px;
+                background-color: grey;
+            }
+            .login_btn{
+                width: 75%;
+                margin: auto;
+                height: 65px;
+                margin-top: 35px;
+                font-size: 23px;
+             margin-bottom: 70px;
+           
+            }
+            .login_btn>button{
+                height: 100%;
+                width: 100%;
+                font-size: 23px;border: hidden;
+                background-image: linear-gradient(to right, rgb(41, 80, 237), rgb(186, 55, 252));
+                color: white;
+                background-color: transparent;
+                padding: 20px 0px 20px 0px;
+               
+            }
+            button:hover {
+                cursor: pointer;
+                color: yellow;
+            }
+            .bottom{
+                font-size: 20px;
+                text-align: center;
+                line-height: 20px;
+                line-height: 45px;
+                color: grey;
+                font-family: sans-serif;
+            }
+           .bottom>div>p:first-child{
+               display: inline;
+               margin-right: 10px;
+           }
+           /* .bottom>div>p:last-child{
+               display: inline;
+               color: blue;
+           } */
+           a:link {
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: bold;
+                
+            }
+    
+            #space {
+                padding-bottom: 70px;
+            }
+         </style>
+    </head>
+    <body>
+        <div id="container">
+            <h1>Login</h1>
+            <div id="form">
+                <input type="email" name="email" id="email" placeholder="Email"><hr>
+                <input type="password" name="email" id="email" placeholder="Password"><hr>
+            </div>
+            <div class="login_btn">
+                <button>Login</button>
+            </div>
+            <div class="bottom">
+                <div>
+                    <p>Forgot</p><a href="">Password?</a>
+                </div>
+                <div id="space">
+                    <p>Don't have an account?</p><a target="_blank" href="">Sign up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    </body>
+    </html>
